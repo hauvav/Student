@@ -30,7 +30,7 @@
 
     <script>
         // Fetch students data from backend and populate the table
-        fetch('https://dabackend.azurewebsites.net/api/students')
+        fetch('https://studentbackend.azurewebsites.net/api/students')
             .then(response => response.json())
             .then(data => {
                 const studentTableBody = document.getElementById('studentTableBody');
